@@ -31,8 +31,9 @@ h2 {
 
  
 @media only screen and (min-width: 900px) {
+
   header {
-    height: 230px;
+    height: 180px;
     border-bottom: 1px solid #cccccc;
     text-align: center;
     margin-bottom: 10px;
@@ -47,8 +48,9 @@ h2 {
   }
  
   header > img {
-    width: 200px;
-    height: 200px;
+    margin-left: 30px;
+    width: 150px;
+    height: 150px;
   }
 
   article div[itemprop=articleBody] {
@@ -67,7 +69,7 @@ h2 {
 
 @media only screen and (min-width: 600px) and (max-width:899px) {
  header {
-    height: 180px;
+    height: 150px;
     border-bottom: 1px solid #cccccc;
     text-align: center;
     margin-bottom: 10px;
@@ -82,12 +84,12 @@ h2 {
   }
 
   header > img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width:599px) {
+@media only screen and (min-width: 100px) and (max-width:599px) {
  header {
    height: 120px;
    border-bottom: 1px solid #cccccc;
@@ -104,8 +106,8 @@ h2 {
   }
 
   header > img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 }
 
